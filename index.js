@@ -9,8 +9,8 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000",             // Control local dev
   "http://localhost:3001",             // Display local dev
-  "https://display-premiere.netlify.app/",   // Control en Netlify
-  "https://fanciful-stroopwafel-edf983.netlify.app/"    // Display en Netlify
+  "https://display-premiere.netlify.app",   // Control en Netlify
+  "https://fanciful-stroopwafel-edf983.netlify.app"    // Display en Netlify
   // si usas un solo dominio netlify, igual déjalo aquí
 ];
 
