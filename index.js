@@ -71,6 +71,10 @@ io.on("connection", (socket) => {
     io.emit("hide_info");
   });
 
+  socket.on("play_sound", (data) => {
+    io.emit("play_sound", data);
+  });
+
   socket.on("disconnect", () => {
     console.log("❌ Cliente desconectado:", socket.id);
   });
